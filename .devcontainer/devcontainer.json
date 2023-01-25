@@ -1,0 +1,17 @@
+{
+	"name": "PostgreSQL & NodeJS",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspace",
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"Ferosh.midnight-dusk",
+		"PKief.material-icon-theme",
+        "GitHub.copilot"
+	],
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// This can be used to network with other containers or the host.
+	"forwardPorts": [
+		5000
+	]
+}
